@@ -246,9 +246,17 @@ h1,h2,h3,p{
 }
 .form{
     display:inline-block;
-}
-.right{
     position: relative;
+}
+
+.right{
+    position: absolute;
+    box-shadow: 0px 5px 8px 0px black;
+    border-radius: 15px;
+    height: 370px;
+    width: 500px;
+    bottom: -280px;
+    left: 110px;
 }
 .contact-form{
     position: absolute;
@@ -256,50 +264,66 @@ h1,h2,h3,p{
 .namebox{
     position: absolute;
     font-size: 20px;
-    margin-left: 100px;
-    top: -105%;
+    margin-left: 10px;
+    top: 40px;
 }
 #name{
     position: absolute;
-    width: 400px;
+    width: 370px;
     height: 30px;
-    left: 190px;
-    top: -65px;
+    left: 120px;
+    top: 40px;
     padding: 15px;
     
 }
 .emailbox{
     position: absolute;
     font-size: 20px;
-    margin-left: 100px;
-    top: 10px;
+    margin-left: 10px;
+    top: 100px;
 }
 #email{
     position: absolute;
-    width: 400px;
+    width: 370px;
     height: 30px;
-    left: 190px;
-    top: 5px;
+    left: 120px;
+    top: 100px;
+    padding: 15px;
+    
+}
+.subjectbox{
+    position: absolute;
+    font-size: 20px;
+    margin-left: 10px;
+    top: 160px;
+}
+#subject{
+    position: absolute;
+    width: 370px;
+    height: 30px;
+    left: 120px;
+    top: 160px;
     padding: 15px;
     
 }
 .messagebox{
     position: absolute;
     font-size: 20px;
-    top: 85px;
+    top: 220px;
+    left: -90px;
     margin-left:100px ;
 }
 #message{
     position: absolute;
-    width: 400px;
+    width: 370px;
     height: 60px;
-    top: 80px;
-    left: 190px;
+    top: 220px;
+    left: 120px;
 }
 .formbutton{
     position: absolute;
-    top:170px;
-    left: 190px;
+    top:320px;
+    left: 120px;
     padding: 5px;
     font-size: 16px;
     border-radius: 7px;
