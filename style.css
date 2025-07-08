@@ -333,6 +333,9 @@ h1,h2,h3,p{
 }
 .formbutton:hover{
     transform: scale(1.05);
+    background-color: red;
+    color: black;
+    box-shadow: 0 0 10px red;
 }
 .projectblock{
     display:flex;
